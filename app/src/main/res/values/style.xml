@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="AppTheme.sliderActivity" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent" type="">true</item>
+        <item name="android:windowBackground" type="">@android:color/transparent</item>
+
+    </style>
+
+
+    <style name="customfontstyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:fontFamily">@font/lobster</item>
+    </style>
+        <!-- Base application theme. -->
+        <style name="AppThemee" parent="Theme.AppCompat.Light">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/listt"
+        android:layout_width="157dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lobster_regular"
+        android:gravity="center"
+        android:textColor="#FF1313"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/white"
+        android:id="@+id/user"
+        android:visibility="invisible"
+        />
+
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listt"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:maxLines="17"
+        android:background="@color/white"
+        android:fontFamily="@font/lobster_regular"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/listt"
+        android:id="@+id/request"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lobster_regular"
+        android:gravity="left"
+        android:text="Request for blood group -"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/time1"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lobster_regular"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/name3"
+        android:layout_width="392dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/date"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="1dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="left"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Tap for more details"
+        android:textColor="#FF2D2D"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

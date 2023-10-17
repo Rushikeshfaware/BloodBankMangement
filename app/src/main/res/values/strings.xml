@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Blood bank management</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1"><font fgcolor='#FF000000'>BLOOD BANK</font></string>
+    <string name="tab_text_2"><font fgcolor='#FF000000'>SEARCH DONOR</font></string>
+    <string name="tab_text_3"><font fgcolor='#FF000000'>MY PROFILE</font></string>
+    <string name="tab_text_4"><font fgcolor='#FF000000'>Blood Request</font></string>
+
+    <string name="todo">TODO</string>
+    <string name="spinner_title">blood group</string>
+    <string name="hello">
+         <b> Blood Bank </b> : - In this we have two fields, one is the blood group and the other is the number of blood donors. After     scrolling down, you will see the send   request button. In this, if you want the blood of that particular blood group, you can select it and click on the send request button. After that you will see your request in the Blood request field.
+
+    </string>
+    <string name="helloo">
+        <b>Search Donor</b> : - In this field you can find information about blood donors. If you need blood, you can select the blood type you want and see the number of donors for that   blood group and contact them directly. When we select any blood group, say B+, it automatically displays all blood donors with their B + blood group.  The advantage is that if there is any emergency of blood it helps us a lot.</string>
+    <string name="hellooo">
+        <b> My Profile </b>   : - This field helps the donor to see all the  details that is personal information plus the blood group which together helps to select a donor. You can update your details as well.
+    </string>
+    <string name="blood_requests">Blood requests</string>
+    <string name="you_don_t_have_to_be_a_doctor_to_save_lives"><i>You don\'t have to be a doctor to save lives</i></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="request" >
+        <b>Blood request </b>:-   In this field we can see request for blood of different people. We can also see the name and contact number of the sender.
+    </string>
+
+</resources>

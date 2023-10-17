@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    tools:context=".help"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E35454">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:text="@string/hello"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:textIsSelectable="true"
+                android:text="@string/request"
+                android:layout_below="@+id/hello3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:fontFamily="@font/lobster_regular"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="40dp" />
+
+            <TextView
+                android:id="@+id/hello2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/hello"
+                android:layout_marginStart="0dp"
+                android:textIsSelectable="true"
+                android:layout_marginTop="29dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="@string/helloo"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/hello3"
+                android:layout_width="wrap_content"
+                android:layout_height="289dp"
+                android:layout_below="@+id/hello2"
+                android:layout_alignParentBottom="false"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="39dp"
+                android:fontFamily="@font/lobster_regular"
+                android:gravity="center"
+                android:text="@string/hellooo"
+                android:textColor="@color/black"
+                android:textIsSelectable="true"
+                android:textSize="26sp" />
+        </RelativeLayout>
+    </ScrollView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listen"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="70dp"
+            android:text="Listen" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/stop"
+            android:layout_width="193dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="stop" />
+
+</RelativeLayout>
